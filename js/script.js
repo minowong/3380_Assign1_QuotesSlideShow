@@ -102,7 +102,7 @@ function printQuote(){
     document.getElementById('quote-box').innerHTML = htmlStr;
 
     // debug: show displayed quote ID to make sure no repeat quote
-    console.log(ranQuote.id)
+    console.log("quote: " + ranQuote.id)
 }
 
 /***
